@@ -1,0 +1,87 @@
+/* Палитра 
+accent-color 2196F3
+main-text-color 212121
+secondary-text-color 757575
+white-color FFFFFF
+hero-background-color 2F303A
+services-background-color E5E5E5
+team-backgroun-color F5F4FA
+*/
+:root{
+    --accent-color: #2196F3;
+    --main-text-color: #757575;
+    --secondary-text-color: #212121;
+    --main-white-color: #FFFFFF;
+    --black-background-color: #2F303A;
+    --services-background-color: #E5E5E5;
+    --team-backgroun-color: #F5F4FA;
+}
+
+main h2,
+main h3{
+    color: var(--secondary-text-color);
+}
+p {
+    color: var(--main-text-color);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Header */
+.logo-first{
+    color: var(--accent-color);
+}
+.logo-second{
+    color: #000000;
+}
+.nav-link{
+    color: var(--secondary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent-color);
+}
+.contacts-link{
+    color: var(--main-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus{
+    color: var(--accent-color);
+}
+/* Hero */
+.main-title{
+    color: var(--main-white-color);
+}
+.hero{
+    background-color: var(--black-background-color);
+}
+.button{
+    color: var(--main-white-color);
+    background-color: var(--accent-color);
+}
+
+/* Footer */
+.logo-second-white {
+    color: var(--main-white-color);
+}
+
+.footer{
+    background-color: var(--black-background-color);
+}
+.address{
+    color: var(--main-white-color);
+}
+.active{
+    color: var(--accent-color);
+}
+.menu-link{
+    color: var(--secondary-text-color);
+    background-color: var(--team-backgroun-color);   
+}
+.menu-link:hover{
+    color: var(--main-white-color);
+    background-color: var(--accent-color);
+}
